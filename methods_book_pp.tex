@@ -1,0 +1,106 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage[table]{xcolor}
+\usepackage{verbatim}
+\usepackage[top=1.2in, bottom=1.2in, left=1.2in, right=1.2in]{geometry}
+%\usepackage[notref]{showkeys}
+
+\usepackage{tikz}
+\newcommand{\tikzmark}[2]{
+	\tikz[overlay,remember picture, baseline] 
+	\node[anchor=base] (#1) {$#2$};}
+
+\usepackage{thmtools}
+\renewcommand{\listtheoremname}{List of Applications}
+\renewcommand\thmtformatoptarg[1]{: #1}
+
+\usepackage{enotez}
+\let\footnote=\endnote
+\setenotez{list-name={Hints and Answers}, totoc=chapter}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{properties}[theorem]{Properties}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{exercise*}[theorem]{Exercise*}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{sketch}[theorem]{Sketch}
+\newtheorem*{application}{Application}
+
+\newcommand{\figbox}[1]{
+\begin{center}
+	\fbox{\parbox[b][2.5in][t]{0.5\textwidth}{{\scriptsize{#1}}}}
+\end{center}}
+\newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
+\newcommand{\wtd}[1]{\widetilde{#1}}
+\newcommand{\abs}[1]{ \left| #1 \right| }
+\newcommand{\rank}{\text{rank}\:}
+\renewcommand{\d}{\mathrm{d}}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\df}[2]{\displaystyle{\frac{\partial #1}{\partial #2}}}
+\newcommand{\ddf}[2]{\displaystyle{\frac{\partial^2 #1}{\partial #2^2}}}
+\newcommand{\dff}[3]{\displaystyle{\frac{\partial^2 #1}{\partial{#2}\partial{#3}}}}
+\newcommand{\Df}[2]{\displaystyle{\frac{\d #1}{\d #2}}}
+\newcommand{\Ddf}[2]{\displaystyle{\frac{\d^2 #1}{\d #2^2}}}
+\newcommand{\itgr}[4]{\int_{#1}^{#2} #3 \: \d #4}
+\newcommand{\eval}[3]{\left. #1 \, \right|_{#2}^{#3}}
+
+\setcounter{tocdepth}{2}
+
+\title{A Compact Course on Mathematical Methods}
+\author{Pascal Philipp}
+
+
+\begin{document}
+
+\maketitle
+
+\newgeometry{top=1.0in, bottom=1.0in, left=0.7in, right=0.8in}
+\noindent
+\texttt{COMMENTS}
+\thispagestyle{empty}
+\newpage
+\restoregeometry
+
+\newgeometry{top=0.8in, bottom=1.0in, left=1.1in, right=1.1in}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\listoftheorems[ignoreall,show={application}]
+
+\bigskip
+\noindent
+\texttt{Customise the format: drop ``Application: ''.}
+\thispagestyle{empty}
+\restoregeometry
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\chapter{Vectors and Matrices}
+\label{ch:vm}
+\input{Chapters/ch1.tex}
+
+\chapter{Functions of Several Variables}
+\label{ch:fsv}
+\input{Chapters/ch2.tex}
+
+\chapter{Integration \texttt{(written; to be expanded and brushed up)}}
+\label{ch:i}
+\input{Chapters/ch3.tex}
+
+\chapter{Differential Equations \texttt{(written; to be exp.~and brushed up)}}
+\label{ch:de}
+\input{Chapters/ch4.tex}
+
+\printendnotes
+
+\end{document}
