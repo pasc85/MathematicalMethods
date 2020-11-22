@@ -15,7 +15,7 @@ text is familiarity with functions of a single variable and differentiation.
 Chapter 2 is then the natural follow-up to that prerequisite.
 Differentiation for functions of several variables and applications
 such as finding minima or maxima are covered.
-Chapter 3 introduces integration, first for functions of one variable and then
+Chapter 3 introduces integration; first for functions of one variable and then
 for functions of several variables.
 That second part, multivariate integration, is rather brief and more of a
 quick taster and introduction of concepts rather than a systematic treatment.
@@ -25,20 +25,20 @@ You could call these three chapters 'advanced calculus'.
 The material in chapter 1, vectors and matrices, isn't usually taught together
 with calculus -- it is covered here because it is the other important basic
 mathematical methods topic needed in STEM
-(with calculus being the first; the third such topic is probability and
-statistics -- that's currently not covered, but I'd be open to start
+(with calculus being the first; actually, there is a third such topic:
+probability and statistics, which is not covered, but I'd be open to starting
 collaborations to add a compact chapter on it).
 Chapter 1 isn't a prerequisite for the other chapters, but it makes some of
 the multivariate notation prettier.
 
-These notes are application-oriented and the philosophy is:
-Cover the basic concepts quickly, go through a good amount of examples and
-exercises, and then move on -- no need to go down rabbit holes.
-That's where the 'compact' in the title comes from. Despite focus on methods
-for applied computations and solving problems, a few more theoretical remarks
-and exercises can be found in the text.
-I did insert elements of abstract mathematical rigour, but I tried to do so in
-a friendly way.
+These notes are application-oriented and the philosophy is to
+cover the basic concepts quickly, go through a good amount of examples and
+exercises, and then move on. No need to go down rabbit holes.
+That's where the 'compact' in the title comes from.
+Despite focus on methods for applied computations and solving problems,
+a few more theoretical remarks and exercises can be found in the text.
+Elements of abstract mathematical rigour can be found as well -- I tried to
+do give a taste of this way of thinking in a friendly way.
 
 
 ## Contributions
