@@ -54,8 +54,8 @@ You'd be very welcome to contribute, e.g.:
 The smaller contributions can be made by raising issues on GitHub.
 For the bigger contributions, a pull request from a fork would be best.
 (In that case, I'd recommend discussing things first via an issue.)
-I'll add a credits section at the end, listing those who've helped out
-(there'll be a special mention for the first contributor :wink:)
+If people start getting involved, I'll add a credits section at the end, listing those who've helped out :+1:
+
 
 
 
