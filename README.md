@@ -13,12 +13,12 @@ The notes at hand cover the following topics:
 The main prerequiste that is required for being able to work through the
 text is familiarity with functions of a single variable and differentiation.
 Chapter 2 is then the natural follow-up to that prerequisite.
-It covers differentiation for functions of several variables and applications
-such as finding minima or maxima.
+Differentiation for functions of several variables and applications
+such as finding minima or maxima are covered.
 Chapter 3 introduces integration, first for functions of one variable and then
 for functions of several variables.
 That second part, multivariate integration, is rather brief and more of a
-quick taster and introduction of concepts rather than a full treatment.
+quick taster and introduction of concepts rather than a systematic treatment.
 Chapter 4 then does the same for differential equations.
 You could call these three chapters 'advanced calculus'.
 
