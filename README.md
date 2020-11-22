@@ -3,8 +3,42 @@ Copyright 2020 Pascal Philipp. Subject to Apache License 2.0.
 
 ## Content Overview
 
-...
+The notes at hand cover the following topics:
 
+1. Vectors and Matrices
+2. Functions of Several Variables
+3. Integration
+4. Differential Equations
+
+The main prerequiste that is required for being able to work through the
+text is familiarity with functions of a single variable and differentiation.
+Chapter 2 is then the natural follow-up to that prerequisite.
+It covers differentiation for functions of several variables and applications
+such as finding minima or maxima.
+Chapter 3 introduces integration, first for functions of one variable and then
+for functions of several variables.
+That second part, multivariate integration, is rather brief and more of a
+quick taster and introduction of concepts rather than a full treatment.
+Chapter 4 then does the same for differential equations.
+You could call these three chapters 'advanced calculus'.
+
+The material in chapter 1, vectors and matrices, isn't usually taught together
+with calculus -- it is covered here because it is the other important basic
+mathematical methods topic needed in STEM
+(with calculus being the first; the third such topic is probability and
+statistics -- that's currently not covered, but I'd be open to start
+collaborations to add a compact chapter on it).
+Chapter 1 isn't a prerequisite for the other chapters, but it makes some of
+the multivariate notation prettier.
+
+These notes are application-oriented and the philosophy is:
+Cover the basic concepts quickly, go through a good amount of examples and
+exercises, and then move on -- no need to go down rabbit holes.
+That's where the 'compact' in the title comes from. Despite focus on methods
+for applied computations and solving problems, a few more theoretical remarks
+and exercises can be found in the text.
+I did insert elements of abstract mathematical rigour, but I tried to do so in
+a friendly way.
 
 
 ## Contributions
@@ -12,19 +46,16 @@ Copyright 2020 Pascal Philipp. Subject to Apache License 2.0.
 You'd be very welcome to contribute, e.g.:
 
 - spot typos or mistakes in the computations :eyes:
-- make suggestions on how to improve the exposition
 - set figures (some of them are hand-drawn atm :worried:)
 - Latex improvements (cf. the list of applications... :anguished:)
-- add examples / exercises
-- fill in some of the applications that are currently missing
-- request topics to be added, or even write them yourself :mortar_board:
+- add examples / exercises :running:
+- fill in some of the applications that are currently missing :mortar_board:
 
 The smaller contributions can be made by raising issues on GitHub.
 For the bigger contributions, a pull request from a fork would be best.
-(In that case, I'd very much recommend discussing things first via an issue.)
-I'll add a credits section at the end, listing those who've helped out :wink:
-
-Cheers :grin: --PP
+(In that case, I'd recommend discussing things first via an issue.)
+I'll add a credits section at the end, listing those who've helped out
+(there'll be a special mention for the first contributor :wink:)
 
 
 
