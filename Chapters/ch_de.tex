@@ -75,7 +75,7 @@ for the height of the water level, where $\alpha$ is some positive constant that
 	For example, the function $y(x)=\ln(x)+c$ solves the DE $y'=\rfrac1x$. We will refer to this type of DE as \emph{directly integrable}.
 	\item The general solution of a $n$th-order DE usually contains $n$ constants. You can see that in the examples above. For directly integrable DEs, one can argue as follows: To solve
 	\[ y^{(n)}=f(x), \]
-	we integrate $f(x)$ $n$ times, obtaining a constant of integration each time. For this module, you can always work with the assumption that the general solution of a $n$th-order DE contains $n$ constants. Proving this for certain types of DEs -- it is not true for all DEs -- is beyond the scope of MTH1002.
+	we integrate $f(x)$ $n$ times, obtaining a constant of integration each time. For this module, you can always work with the assumption that the general solution of a $n$th-order DE contains $n$ constants. Proving this for certain types of DEs -- it is not true for all DEs -- is beyond the scope of these notes.
 	\item Our first non-trivial technique for solving ODEs is for those of the form
 	\[ y'=h(x) \cdot g(y). \]
 \end{enumerate}
@@ -224,7 +224,6 @@ which gives the general solution
 
 \begin{exercise}
 \begin{enumerate}[(i)]
-	\item Work through the first-order DEs on the tutorial sheet for chapter~4.
 	\item Letting $\alpha=1$ and $h(0)=100$, solve the differential equation for the water tank from the beginning of this chapter. Plot your solution -- does it make sense\footnote{Initially, it does not make sense, but setting the solution equal to $0$ from a certain $t_0$ on, one obtains a function for the water level $h(t)$ that does agrees with how one would imagine a tank to drain.}? How long does it take for the tank to drain\footnote{$20$ seconds.}?
 	\item Solve\footnote{$y(x) \approx x \cdot \text{arcsin} ( \ln x + 0.866 )$,
 	but you should obtain the constant exactly.}
@@ -605,7 +604,6 @@ Find the general solution of
 
 \begin{exercise}
 \begin{enumerate}[(i)]
-		\item Solve the higher-order ODEs on the tutorial sheet.
 		\item Consider the s-o LODE	\[y''+4y=0\]
 		from example~\ref{exple:first_de_exples} and the solution $y_1(x)=\sin(2x)$ we had already guessed and verified. Using reduction of order, find the general solution. Then also solve the DE using the theory from section~\ref{sec:cch}.
 		\item Solve the BVP\footnote{The general solution is $y_{\text{gen}}(x)= A \, \e^x \cos x + B \, \e^x \sin x + 5$, and you can verify the constants you have found for the particular solution by checking whether it satisfies the boundary conditions.} 
@@ -639,7 +637,7 @@ Find the general solution of
 \[ u = u(t,x,y,z) \]
 and satisfies the \emph{heat equation}
 \[ u_t-\alpha\left( u_{xx}+u_{yy}+u_{zz}\right) = 0.\]
-The heat equation is a very important PDE. We will not be able to discuss it in MTH1002, but you will learn how to solve it in MTH2003.
+The heat equation is a very important PDE. We will not be able to discuss it here, but we'll be making first steps towards it.
 \end{remark}
 
 \begin{example}
@@ -669,7 +667,7 @@ The heat equation is a very important PDE. We will not be able to discuss it in 
 
 \begin{remark}
 \begin{enumerate}[(i)]
-	\item As hinted on above, the set of solution is \emph{much} bigger for PDEs than for ODEs of the same order. You will see that when solving the exercises below and the PDEs on the tutorial sheet.
+	\item As hinted on above, the set of solution is \emph{much} bigger for PDEs than for ODEs of the same order.
 	\item The previous examples are analogous to directly integrable ODEs -- they can be solved directly using integration. The next example can not be solved as readily, but we will bring it into directly integrable form using theory from chapter~\ref{ch:fsv}.
 \end{enumerate}
 \end{remark}
@@ -725,7 +723,7 @@ in the original variables. Here, $f$ and $g$ are arbitrary single-variable funct
 
 \begin{exercise}
 \begin{enumerate}[(i)]
-	\item Work through the PDEs on the tutorial sheet. Check the solution from the previous example by finding its second-order partial derivatives and check whether they add to $0$ when combined in way prescribed by the PDE. This will require the 1D chain rule, e.g.:
+	\item Check the solution from the previous example by finding its second-order partial derivatives and check whether they add to $0$ when combined in way prescribed by the PDE. This will require the 1D chain rule, e.g.:
 	\[ \df{}{y}\left( f(x+3y) \right) = f'(x+3y)\,\df{}{y}\left( x+3y \right)
 		= 3f'(x+3y).\]
 	\item Find $u=u(x,y)$ that satisfies\footnote{No need to provide the answer here -- just check it yourself in the way described in the previous exercise. This is a very good thing to do, as it shows you what we are actually doing here.}
