@@ -1,7 +1,8 @@
 Copyright 2020 Pascal Philipp. Subject to Apache License 2.0.
 
+## A Compact Course on Mathematical Methods
 
-## Content Overview
+### Content Overview
 
 The notes at hand cover the following topics:
 
@@ -41,7 +42,7 @@ Elements of abstract mathematical rigour can be found as well -- I tried to
 do give a taste of this way of thinking in a friendly way.
 
 
-## Contributions
+### Contributions
 
 You'd be very welcome to contribute, e.g.:
 
