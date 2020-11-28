@@ -332,7 +332,7 @@ We conclude this section with the following remarks:
 \begin{exercise}
 \begin{enumerate}[(i)]
 	\item Interpret the properties~\ref{prop:di} -- perhaps add a few sketches to your notes -- and prove one or two of them.
-	\item Find the area function $A_0$ of $f(x)=x^3-6x$ with $a=0$. Then set $a=1$ and find the corresponding area function $A_1$. Compare $A_0$ and $A_1$ to each other and to the indefinite integral of\footnote{A$A_0(x)$ and $A_1(x)$ should differ by the constant $\rfrac{-11}{4}$ -- where does this number come from? By choosing the constant of integration suitably, you should be able to obtain both $A_0$ and $A_1$ from the indefinite integral.} $f(x)$.
+	\item Find the area function $A_0$ of $f(x)=x^3-6x$ with $a=0$. Then set $a=1$ and find the corresponding area function $A_1$. Compare $A_0$ and $A_1$ to each other and to the indefinite integral of\footnote{$A_0(x)$ and $A_1(x)$ should differ by the constant $\rfrac{-11}{4}$ -- where does this number come from? By choosing the constant of integration suitably, you should be able to obtain both $A_0$ and $A_1$ from the indefinite integral.} $f(x)$.
 	\item Find the definite integral
 	\[ \itgr{0}{1}{\e^x}{x} \]
 	using Riemann sums\footnote{You will need the formula for the sum of the first $n$ terms of the geometric series.}, and then compare to the value found via direct integration.
@@ -765,7 +765,7 @@ The steps for integration by partial fractions are:
 \end{remark}
 
 
-\begin{application}[Signal conversion]
+\begin{application}[\texttt{Signal conversion}]
 \texttt{\ldots}
 \end{application}
 
@@ -1154,7 +1154,7 @@ in (ii) above is not injective. For example, all points $(r,\theta)=(0,\theta)$ 
 	\end{equation*}
 	This result, $46.2$, has a physical meaning -- compare to the application in the introduction to this chapter to see what it is\footnote{If you divide that number by $\iint_D 1 \: \d A$, the result will help you balance a cut-out of $D$ on a single point.}. Note that integration in Cartesian coordinates would have been more laborious, as one would have to split up $D$ into at least three pieces\footnote{E.g., letting $y$ be the outer integral: there are three different sets of formulas for the $x$ boundaries.}. 
 	\item Find the area $A$ enclosed by one loop of the four-leaved rose $r=\cos(2\theta)$.\\
-	{\it Sol.:} Here, a curve in the $xy$-plane is not given by an explicit (e.g. $y=x^2$) or implicit (e.g. $x^2+y^2=1$) formula in $x$ and $y$, but via an equation in polar coordinates. Those are \emph{polar curves}. For example, $r=1$ is the unit circle centred at the origin, and $\theta = \rfrac{\pi}{3}$ describes the ray that leaves the origin at an angle of $60^{\circ}$. Examples of polar curves -- including the four-leaved rose -- can be viewed in the interactive MTH1000 worksheet ``Polar coordinates''. You can also enter commands like \texttt{polar plot r=cos(2t)} into WolframAlpha. To find the area within one loop of the four-leaved rose,
+	{\it Sol.:} Here, a curve in the $xy$-plane is not given by an explicit (e.g. $y=x^2$) or implicit (e.g. $x^2+y^2=1$) formula in $x$ and $y$, but via an equation in polar coordinates. Those are \emph{polar curves}. For example, $r=1$ is the unit circle centred at the origin, and $\theta = \rfrac{\pi}{3}$ describes the ray that leaves the origin at an angle of $60^{\circ}$. You should be able to find lots of interesting material on polar curves online. You can also enter commands like \texttt{polar plot r=cos(2t)} into WolframAlpha. To find the area within one loop of the four-leaved rose,
 	\figbox{The four-leaved rose:}
 	we integrate the function $f=1$ over $\theta\in[\rfrac{\pi}{4},\rfrac{3\pi}{4}]$ and $r\in[0,\cos2\theta]$:
 	\begin{equation*}
